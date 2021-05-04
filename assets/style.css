@@ -1,0 +1,188 @@
+/****** Elad Shechter's RESET *******/
+/*** box sizing border-box for all elements ***/
+*,
+*::before,
+*::after{padding:0; margin:0; box-sizing:border-box;}a{text-decoration:none; color:inherit; cursor:pointer;}
+button{background-color:transparent; color:inherit; border-width:0; padding:0; cursor:pointer;}
+figure{margin:0;}
+input::-moz-focus-inner {border:0; padding:0; margin:0;}
+ul, ol, dd{margin:0; padding:0; list-style:none;}
+h1, h2, h3, h4, h5, h6{margin:0; font-size:inherit; font-weight:inherit;}
+p{margin:0;}
+cite {font-style:normal;}
+fieldset{border-width:0; padding:0; margin:0;}
+
+@font-face { font-family: "nyt-franklin"; 
+    src: url("/assets/franklin-normal-700.ttf")}
+
+
+@font-face { font-family: "imperial-normal"; 
+    src: url("/assets/imperial-normal-500.ttf")}
+
+@font-face { 
+    font-family: "cheltenham-italic";
+    src: url("/assets/cheltenham-italic-700.ttf")
+}
+
+/*--------- Masthead -------------*/
+
+.masthead {
+    background: white;
+    border-bottom: 1px solid #e2e2e2;
+    font-family: "nyt-franklin", Helvetica, sans-serif;
+    
+    position: fixed;
+    width: 100%;
+    box-shadow: rgba(0,0,0,0.08) 0 0 5px 1px;
+} 
+
+
+.masthead-wrapper {
+    height: 42px;
+    position: relative;
+    max-width: 84%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+    align-items: center;
+}
+
+.css-1fe7a5q {
+    height: 16px;
+    width: 16px;
+}
+
+.masthead .title svg {
+    margin-top: 10px;
+    height: 26px;
+}
+
+.right button{
+    background: #567b95;
+    border: 1px solid #326891;
+    color: white;
+    padding: 10px 12px 8px 12px;
+    font-family: "nyt-franklin", Helvetica, sans-serif;
+    font-size: 11px;
+    border-radius: 3px;
+    letter-spacing: .05em;
+}
+
+
+main {
+    padding-top: 30px;
+}
+
+.ad-wrapper {
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  
+}
+
+.ad {
+    background: #f7f7f7;
+    text-align: center;
+}
+.ad p {
+    font-family: "nyt-franklin", Helvetica, sans-serif;
+    font-size: 9px;
+    font-weight: 300;
+    color: #ccc;
+    text-transform: uppercase;
+}   
+
+.ad-wrapper img {
+    width: 100%;
+    
+}
+
+.img-wrapper {
+    width: 60%;
+    margin: auto;
+}
+
+.img-wrapper img {
+    width: 100%;
+}
+
+.content {
+    margin: auto;
+    width: 600px;
+}
+
+.article-header {
+    margin-top: 40px;
+}
+
+.title-container {
+    max-width: 600px;
+    margin: auto;
+
+}
+main .title {
+    font-family: "cheltenham-italic";
+    font-size: 40px;
+    line-height: 48px;
+    max-width: 600px;
+    
+    padding-bottom: 1.2rem;
+}
+
+
+.social {
+    border-top: 1px solid #e2e2e2;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    
+}
+
+.social ul {
+    display: flex;
+    width: 46%;
+    justify-content: space-between;
+}
+
+
+.social li{
+    display: inline;
+    color: #121212;
+}
+
+p {
+    font-family: "imperial-normal";
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+    line-height: 30px;
+}
+
+.subtitle {
+    font-family: "imperial-normal";
+    font-size: 15px;
+    color: #666;
+    line-height: 1.25 rem;
+    width: 75%;
+}
+
+.subtitle span {
+    color: #888;
+    font-size: 13px;
+}
+
+.article-info {
+    font-family: "nyt-franklin";
+    font-size: 15px;
+    color: #333;
+    margin-top: 2rem;
+}
+
