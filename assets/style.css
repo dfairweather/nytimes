@@ -184,5 +184,54 @@ p {
     font-size: 15px;
     color: #333;
     margin-top: 2rem;
+    line-height: 2rem;
 }
 
+.author {
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+}
+
+.author:hover {
+    text-decoration: none;
+}
+
+.date {
+    font-size: 13px;
+    font-family: "nyt-franklin";
+}
+
+.sign-up {
+    margin-top: 3rem;
+    padding-top: .75rem;
+    display: flex;
+    border-top: 1px solid #e2e2e2;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sign-up-container {
+    max-width: 500px;
+}
+
+.sign-up p{
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.sign-up span {
+    font-family: "nyt-franklin";
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.sign-up button {
+    font-family: "nyt-franklin";
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 4px 12px 5px 12px;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 20px;
+}
